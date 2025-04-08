@@ -1,0 +1,43 @@
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  background-color: #444;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: #27ae60;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.status span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .room {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .floor h3 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.room {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  transition: 0.2s;
+}
+
+.room.booked {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.room.available {
+  background-color: #ecf0f1;
+}
