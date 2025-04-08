@@ -1,12 +1,39 @@
-# React + Vite
+# 🏨 Hotel Room Reservation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React.js project simulating a hotel room reservation system. This application visually represents 10 floors of a hotel, with dynamic room data and simple interactivity to book or reset rooms.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔢 **Dynamic Room Generation**  
+  - Floors 1 to 9: 10 rooms each  
+  - Floor 10: 7 rooms  
+- 🟢 **Real-Time Booking**  
+  - Click on a room to toggle its booking status
+- 🎲 **Random Booking Feature**  
+  - Simulate random bookings to test the system
+- 🔄 **Reset All Bookings**  
+  - Clear all bookings instantly
+- 🔍 **Filter System**  
+  - View **All**, **Available**, or **Booked** rooms
+- 💅 **Responsive UI**  
+  - Styled with Tailwind CSS for a modern, clean interface
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [Click here to view the live project](https://karanpunwatkar.github.io/hotel-booking-system/)
+
+## 📁 Project Structure (Important Folders)
+
+- `src/components/` – UI components like Floor and Room
+- `src/utils/roomData.js` – Room generation logic
+- `src/App.jsx` – Main application logic
+
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- Vite
+
+---
+
+
